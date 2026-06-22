@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.title("AI Job Market Analyzer")
 
-df = pd.read_csv("cleaned_ai_jobs.csv")
+df = pd.read_csv("AI_Impact_on_Jobs_2030.csv")
 
 st.subheader("Dataset Overview")
 st.write(df.head())
