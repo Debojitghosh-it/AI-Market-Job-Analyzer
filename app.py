@@ -35,7 +35,7 @@ h1, h2, h3 {
 
 # ---------------- LOAD DATA ----------------
 try:
-    df = pd.read_csv("AI_Impact_on_Jobs_2030.csv")
+    df = pd.read_csv("backend/AI_Impact_on_Jobs_2030.csv")
 except Exception as e:
     st.error(f"Error loading dataset: {e}")
     st.stop()
